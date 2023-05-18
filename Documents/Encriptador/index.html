@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/CANDADO.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador de texto</title>
+</head>
+<body>
+    <div class="contenedor">
+        <!--Encabezado-->
+        <header class="encabezado">
+            <img class="logo" src="./AV log.png" alt="logo de andres">
+       <h1 class="encabezado-titulo">Encriptador</h1>
+        </header>
+        <main>
+          <!--Texto de ingreso-->
+          <section>
+                <div class="contenedor-en">
+                    <textarea class="text-area" id="texto" cols="30" rows="10" placeholder="Ingresa el texto aqui"></textarea>
+                </div>
+                <div class="informacion">
+                    <p>❕ Solo letras minusculas y sin acentos</p>
+                </div>
+                <div class="botones">
+                    <button class="bt-encriptar" type="button" onclick="btencriptar()">Encriptar
+                    </button>
+                    <button class="bt-desencriptar" type="button" onclick="btDesencriptar()">Desencriptar
+                    </button> 
+                </div>
+            </section>  
+
+            <!--Resultado-->
+            <section class="contenedor-des">
+                    <textarea class="mensaje" id="mensaje" cols="30" rows="10"></textarea>  
+                    <div id="ocultar">
+                        <img src="./img/Detective.jpeg" alt="" class="detective">
+                        <h2 class="ocultar-titulo">No se encontró el mensaje</h2>
+                        <p class="ocultar-parrafo">ingrese el mensaje a encriptar o desencriptar</p>
+                    </div> 
+                <div class="cont-btcopiar">   
+                    <button class="bt-copiar" type="button" onclick="copiar()">Copiar</button>
+                </div> 
+            </section>
+
+         <!--Pie de pagina-->
+            <footer class="contenedor-redes">
+                <ul class="contenedor-redes-lista">
+                    <li><a href="https://www.linkedin.com/in/andres-valdivia-/" target="_blank" class="linkedin"><i
+                                class="fa fa-linkedin fa-fw"></i></a></li>
+                    <li><a href="https://github.com/" target="_blank" class="github"><i><i
+                                    class="fa fa-github fa-fw"></i></a></li>
+                </ul>
+                <p class="contenedor-redes-cr">Challenge One Oracle  
+                    <span> - Por Andres Valdivia </span></p>
+            </footer>
+        </main>
+    </div>
+</body>
+
+<script src="https://kit.fontawesome.com/b3310eed91.js" crossorigin="anonymous"></script>
+
+<script src="index.js"></script>
+</html>
