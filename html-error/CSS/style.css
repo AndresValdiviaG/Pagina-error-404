@@ -1,0 +1,54 @@
+.frem {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: url(./Cavernicola.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.frem p {
+  position: absolute;
+  top: 2rem;
+  font-size: 7rem;
+  color: black;
+}
+
+.frem h2 {
+  position: absolute;
+  bottom: 8rem;
+  font-size: 34px;
+}
+
+.frem h5 {
+  position: absolute;
+  bottom: 7rem;
+  color: #9c9c9c;
+}
+
+.frem a {
+  position: absolute;
+  bottom: 2rem;
+  background-image: linear-gradient(
+    110deg,
+    #ffb06b 0,
+    #ffa46e 10%,
+    #ff9770 20%,
+    #ff8971 30%,
+    #ee7a6f 40%,
+    #d86c6c 50%,
+    #c25f67 60%,
+    #ad5463 70%,
+    #9b4a5f 80%,
+    #8b435c 90%,
+    #7e3e59 100%
+  );
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 23px;
+  border-radius: 13px;
+}
